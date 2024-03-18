@@ -17,12 +17,20 @@ const Admin = () => {
     }, []);
 
     return (
-        <nav className="bg-gray-800 text-white p-4">
-            <div className="container mx-auto">
-                {/* Navbar content */}
+        <div className="flex flex-row justify-between px-10">
+            <div>
                 Devgorithm
             </div>
-        </nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Our Service</li>
+            </ul>
+            <div className=" flex gap-3">
+                <button className="px-20 py-10 bg-black text-white rounded-2xl text-center "> Sign Out</button>
+                <button className="px-20 py-10 bg-[yellow] text-white roundes-2xl text-center"> Sign Out</button>
+            </div>
+        </div>
     );
 }
 

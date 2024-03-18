@@ -1,13 +1,13 @@
 const DB = [
     {
         email: 'abdul@admin.com',
-        password: '1234',
+        password: 'Qwerty23',
         role: "admin",
         token: "lkdjkeeoialkejeo"
     },
     {
         email: 'qudus@user.com',
-        password: 'abcd',
+        password: 'Qwerty23',
         role: "user",
         token: "ekoekeoaopieekek"
     }
